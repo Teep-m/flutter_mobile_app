@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'grid_view_page.dart';
+import 'sliver_app_bar_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home: GridViewPage(),
+      home: SliverAppBarPage(),
     );
   }
 }
